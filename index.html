@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Party Clash – Support</title>
+  <meta name="description" content="Support-Seite für Party Clash" />
+  <style>
+    body { font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Arial,sans-serif; margin: 0; padding: 0; background:#0b0b10; color:#fff; }
+    .wrap { max-width: 860px; margin: 0 auto; padding: 40px 18px; }
+    .card { background:#141423; border:1px solid #2a2a45; border-radius:16px; padding:22px; margin: 14px 0; }
+    h1 { font-size: 28px; margin: 0 0 8px; }
+    h2 { font-size: 18px; margin: 0 0 10px; }
+    p,li { line-height: 1.5; color:#d7d7ee; }
+    a { color:#7dd3fc; text-decoration:none; }
+    a:hover { text-decoration: underline; }
+    .muted { color:#a6a6c8; font-size: 14px; }
+    .btn { display:inline-block; margin-top:10px; padding:10px 14px; border-radius:12px; border:1px solid #2a2a45; background:#1b1b2e; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Party Clash – Support</h1>
+    <p class="muted">Hilfe, Kontakt und wichtige Links.</p>
+
+    <div class="card">
+      <h2>Kontakt</h2>
+      <p>Bei Fragen, Problemen oder Feedback schreibe uns bitte an:</p>
+      <p><strong>E-Mail:</strong> <a href="mailto:DEINE_EMAIL">DEINE_EMAIL</a></p>
+      <a class="btn" href="mailto:DEINE_EMAIL?subject=Party%20Clash%20Support">Support-Mail öffnen</a>
+    </div>
+
+    <div class="card">
+      <h2>Häufige Fragen</h2>
+      <ul>
+        <li><strong>Premium wird nicht aktiv:</strong> App neu starten und ggf. „Käufe wiederherstellen“ nutzen.</li>
+        <li><strong>Abos verwalten:</strong> iOS Einstellungen → Apple-ID → Abonnements.</li>
+        <li><strong>Kein Angebot gefunden:</strong> Manchmal dauert die Synchronisation von App Store Connect etwas. Später erneut prüfen.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Rechtliches</h2>
+      <p>
+        <a href="#privacy">Datenschutz</a> ·
+        <a href="#terms">Nutzungsbedingungen</a>
+      </p>
+      <p class="muted">Hinweis: Diese Seite kann später jederzeit erweitert werden.</p>
+    </div>
+
+    <div class="card" id="privacy">
+      <h2>Datenschutz (Kurzinfo)</h2>
+      <p>
+        Party Clash speichert keine sensiblen persönlichen Daten auf Servern.
+        Falls du uns kontaktierst, verwenden wir deine E-Mail nur zur Bearbeitung deiner Anfrage.
+      </p>
+      <p class="muted">Wenn du eine ausführliche Datenschutzerklärung willst, sag’s mir – ich schreibe sie dir passend zur App.</p>
+    </div>
+
+    <div class="card" id="terms">
+      <h2>Nutzungsbedingungen (Kurzinfo)</h2>
+      <p>
+        Die App wird „wie gesehen“ bereitgestellt. Abonnements verlängern sich automatisch,
+        sofern sie nicht mindestens 24 Stunden vor Ablauf deaktiviert werden. Verwaltung über die Apple-ID.
+      </p>
+      <p class="muted">Wenn du detaillierte AGB willst, schreibe ich dir eine vollständige Version (DE/EN).</p>
+    </div>
+
+    <p class="muted">© <span id="y"></span> Party Clash</p>
+  </div>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
