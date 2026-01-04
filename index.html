@@ -16,6 +16,7 @@
     a:hover { text-decoration: underline; }
     .muted { color:#a6a6c8; font-size: 14px; }
     .btn { display:inline-block; margin-top:10px; padding:10px 14px; border-radius:12px; border:1px solid #2a2a45; background:#1b1b2e; }
+    code { background:#1b1b2e; padding:2px 6px; border-radius:8px; border:1px solid #2a2a45; }
   </style>
 </head>
 <body>
@@ -25,9 +26,9 @@
 
     <div class="card">
       <h2>Kontakt</h2>
-      <p>Bei Fragen, Problemen oder Feedback schreibe uns bitte an:</p>
-      <p><strong>E-Mail:</strong> <a href="mailto:DEINE_EMAIL">DEINE_EMAIL</a></p>
-      <a class="btn" href="mailto:DEINE_EMAIL?subject=Party%20Clash%20Support">Support-Mail öffnen</a>
+      <p>Bei Fragen, Problemen oder Feedback zu Party Clash erreichst du uns unter:</p>
+      <p><strong>E-Mail:</strong> <a href="mailto:einfachhiermelden@gmail.com">einfachhiermelden@gmail.com</a></p>
+      <a class="btn" href="mailto:einfachhiermelden@gmail.com?subject=Party%20Clash%20Support">Support-Mail öffnen</a>
     </div>
 
     <div class="card">
@@ -35,7 +36,7 @@
       <ul>
         <li><strong>Premium wird nicht aktiv:</strong> App neu starten und ggf. „Käufe wiederherstellen“ nutzen.</li>
         <li><strong>Abos verwalten:</strong> iOS Einstellungen → Apple-ID → Abonnements.</li>
-        <li><strong>Kein Angebot gefunden:</strong> Manchmal dauert die Synchronisation von App Store Connect etwas. Später erneut prüfen.</li>
+        <li><strong>„Keine Angebote gefunden“:</strong> Manchmal dauert die Synchronisation von App Store Connect etwas. Später erneut prüfen.</li>
       </ul>
     </div>
 
@@ -54,7 +55,9 @@
         Party Clash speichert keine sensiblen persönlichen Daten auf Servern.
         Falls du uns kontaktierst, verwenden wir deine E-Mail nur zur Bearbeitung deiner Anfrage.
       </p>
-      <p class="muted">Wenn du eine ausführliche Datenschutzerklärung willst, sag’s mir – ich schreibe sie dir passend zur App.</p>
+      <p class="muted">
+        Du kannst diese Datenschutz-Sektion später erweitern (z. B. welche Daten lokal auf dem Gerät gespeichert werden).
+      </p>
     </div>
 
     <div class="card" id="terms">
@@ -63,11 +66,15 @@
         Die App wird „wie gesehen“ bereitgestellt. Abonnements verlängern sich automatisch,
         sofern sie nicht mindestens 24 Stunden vor Ablauf deaktiviert werden. Verwaltung über die Apple-ID.
       </p>
-      <p class="muted">Wenn du detaillierte AGB willst, schreibe ich dir eine vollständige Version (DE/EN).</p>
+      <p class="muted">
+        Premium-Abos können in den iOS-Einstellungen unter <code>Apple-ID → Abonnements</code> verwaltet werden.
+      </p>
     </div>
 
     <p class="muted">© <span id="y"></span> Party Clash</p>
   </div>
-  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
